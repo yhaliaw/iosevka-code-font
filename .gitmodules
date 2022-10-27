@@ -1,0 +1,6 @@
+[submodule "iosevka-docker"]
+	path = iosevka-docker
+	url = https://github.com/avivace/iosevka-docker.git
+[submodule "nerd-fonts"]
+	path = nerd-fonts
+	url = https://github.com/ryanoasis/nerd-fonts.git
