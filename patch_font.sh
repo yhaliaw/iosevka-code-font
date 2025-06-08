@@ -1,29 +1,20 @@
-for file in dist/iosevka-term/ttf/*.ttf;
-do
-  python3 nerd-fonts/font-patcher -out dist/iosevka-term/patched-windows -w -c $file
-done
 
-for file in dist/iosevka-term/ttf/*.ttf;
+for file in dist/iosevka-term/TTF/*.ttf;
 do
   python3 nerd-fonts/font-patcher -out dist/iosevka-term/patched -c $file
 done
 
-for file in dist/iosevka-term-mono/ttf/*.ttf;
+for file in dist/iosevka-term-mono/TTF/*.ttf;
 do
   python3 nerd-fonts/font-patcher -out dist/iosevka-term-mono/patched -s -c $file
 done
 
-for file in dist/iosevka-term/ttf-unhinted/*.ttf;
-do
-  python3 nerd-fonts/font-patcher -out dist/iosevka-term/patched-windows-unhinted -w -c $file
-done
-
-for file in dist/iosevka-term/ttf-unhinted/*.ttf;
+for file in dist/iosevka-term/TTF-Unhinted/*.ttf;
 do
   python3 nerd-fonts/font-patcher -out dist/iosevka-term/patched-unhinted -c $file
 done
 
-for file in dist/iosevka-term-mono/ttf-unhinted/*.ttf;
+for file in dist/iosevka-term-mono/TTF-Unhinted/*.ttf;
 do
   python3 nerd-fonts/font-patcher -out dist/iosevka-term-mono/patched-unhinted -s -c $file
 done
